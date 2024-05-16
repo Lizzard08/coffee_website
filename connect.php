@@ -20,7 +20,7 @@
         $result = $db->exec($query);
 
         if ($result){
-            echo "Data inesrted successfully.";
+            echo "Data inserted successfully.";
         } else {
             echo "Error inserting data: " . $db->lastErrorMsg();
         }
